@@ -3,6 +3,7 @@
     background-image: url(../img/welcome-section-bg@1x.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) { 
