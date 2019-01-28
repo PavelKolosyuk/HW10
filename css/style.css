@@ -52,6 +52,7 @@
 }
 
 .navigation__link {
+    display: block;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -121,7 +122,7 @@
 
 .header__button {
     text-decoration: none;
-    font-style: 14px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
