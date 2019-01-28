@@ -63,8 +63,9 @@
     transition: color 0.2s linear;
 }
 
-.nav-link__icon {
+.nav-link__svg-icon {
     fill: #fff;
+    transition: fill 0.2s linear;
 }
 
 .navigation__item {
@@ -97,7 +98,7 @@
     color: #fce38a;
 }
 
-.navigation__item--hover:hover .nav-link__icon {
+.navigation__item--hover:hover .nav-link__svg-icon {
     fill: #fce38a;
 }
 
@@ -346,6 +347,7 @@
 .icon-svg {
     height: 26px;
     fill: #f38181;
+    transition: fill 0.2s linear;
 }
 
 .team-member__img-wrapper:hover {
@@ -359,7 +361,11 @@
 }
 
 .icon:hover {
-    background-color: #95e1d3;
+    background-color: #f38181;
+}
+
+.icon:hover .icon-svg {
+    fill: #fff;
 }
 
 .team-member__img-wrapper:hover::after {
