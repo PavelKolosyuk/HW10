@@ -328,7 +328,6 @@
 .icon {
     width: 56px;
     height: 56px;
-    margin: 2px;
     background-color: #fce38a;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -343,6 +342,10 @@
     -o-transition: background-color 0.2s linear;
     transition: background-color 0.2s linear;
     cursor: pointer;
+}
+
+.icon:not(:last-child) {
+    margin-right: 1px;
 }
 
 .icon-svg {
@@ -410,6 +413,7 @@
 }
 
 .footer-inner {
+    font-size: 0;
     height: 62px;
     border-top: 1px solid #e5e5e5;
     display: -webkit-box;
